@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Travel Budget Planner - Full International</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1>Travel Budget Planner</h1>
+      <p class="subtitle">Choose destination, set trip details, and get an estimate in your preferred currency.</p>
+    </header>
+
+    <section class="panel filters">
+      <div class="row">
+        <div class="col">
+          <label for="continent">Filter by continent</label>
+          <select id="continent"><option value="all">All</option></select>
+        </div>
+        <div class="col">
+          <label for="budget">Budget per night (max)</label>
+          <input id="budget" type="number" placeholder="e.g. 150" />
+        </div>
+        <div class="col">
+          <label for="search">Search destination</label>
+          <input id="search" type="search" placeholder="city or country" />
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <label for="destination">Destination</label>
+      <select id="destination"></select>
+
+      <div class="row">
+        <div class="col">
+          <label for="nights">Nights</label>
+          <input id="nights" type="number" min="1" value="3" />
+        </div>
+        <div class="col">
+          <label for="people">People</label>
+          <input id="people" type="number" min="1" value="1" />
+        </div>
+        <div class="col">
+          <label for="mealsPerDay">Meals per person/day</label>
+          <input id="mealsPerDay" type="number" min="1" value="2" />
+        </div>
+        <div class="col">
+          <label for="attractionsPerDay">Attractions per person/day</label>
+          <input id="attractionsPerDay" type="number" min="0" value="1" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <label for="currency">Display currency</label>
+          <select id="currency"></select>
+        </div>
+        <div class="col align-end">
+          <button id="estimateBtn" class="btn">Estimate Trip Cost</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="results" class="panel hidden">
+      <h2>Estimate</h2>
+      <div id="breakdown"></div>
+      <p id="total" class="total"></p>
+    </section>
+
+    <footer class="footer">
+      <p>Data is sample estimates for demo purposes.</p>
+    </footer>
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

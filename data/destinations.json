@@ -1,0 +1,456 @@
+{
+  "destinations": [
+    {
+      "id": "nyc",
+      "name": "New York City, USA",
+      "continent": "North America",
+      "avgHotelPerNight": 180,
+      "avgMealPerPerson": 35,
+      "avgAttractionPerPerson": 30,
+      "currency": "USD"
+    },
+    {
+      "id": "la",
+      "name": "Los Angeles, USA",
+      "continent": "North America",
+      "avgHotelPerNight": 150,
+      "avgMealPerPerson": 30,
+      "avgAttractionPerPerson": 25,
+      "currency": "USD"
+    },
+    {
+      "id": "sf",
+      "name": "San Francisco, USA",
+      "continent": "North America",
+      "avgHotelPerNight": 200,
+      "avgMealPerPerson": 35,
+      "avgAttractionPerPerson": 28,
+      "currency": "USD"
+    },
+    {
+      "id": "london",
+      "name": "London, UK",
+      "continent": "Europe",
+      "avgHotelPerNight": 170,
+      "avgMealPerPerson": 28,
+      "avgAttractionPerPerson": 20,
+      "currency": "GBP"
+    },
+    {
+      "id": "manchester",
+      "name": "Manchester, UK",
+      "continent": "Europe",
+      "avgHotelPerNight": 100,
+      "avgMealPerPerson": 18,
+      "avgAttractionPerPerson": 15,
+      "currency": "GBP"
+    },
+    {
+      "id": "paris",
+      "name": "Paris, France",
+      "continent": "Europe",
+      "avgHotelPerNight": 160,
+      "avgMealPerPerson": 30,
+      "avgAttractionPerPerson": 22,
+      "currency": "EUR"
+    },
+    {
+      "id": "berlin",
+      "name": "Berlin, Germany",
+      "continent": "Europe",
+      "avgHotelPerNight": 110,
+      "avgMealPerPerson": 18,
+      "avgAttractionPerPerson": 15,
+      "currency": "EUR"
+    },
+    {
+      "id": "madrid",
+      "name": "Madrid, Spain",
+      "continent": "Europe",
+      "avgHotelPerNight": 95,
+      "avgMealPerPerson": 15,
+      "avgAttractionPerPerson": 12,
+      "currency": "EUR"
+    },
+    {
+      "id": "rome",
+      "name": "Rome, Italy",
+      "continent": "Europe",
+      "avgHotelPerNight": 120,
+      "avgMealPerPerson": 20,
+      "avgAttractionPerPerson": 18,
+      "currency": "EUR"
+    },
+    {
+      "id": "amsterdam",
+      "name": "Amsterdam, Netherlands",
+      "continent": "Europe",
+      "avgHotelPerNight": 130,
+      "avgMealPerPerson": 22,
+      "avgAttractionPerPerson": 18,
+      "currency": "EUR"
+    },
+    {
+      "id": "tokyo",
+      "name": "Tokyo, Japan",
+      "continent": "Asia",
+      "avgHotelPerNight": 140,
+      "avgMealPerPerson": 22,
+      "avgAttractionPerPerson": 18,
+      "currency": "JPY"
+    },
+    {
+      "id": "kyoto",
+      "name": "Kyoto, Japan",
+      "continent": "Asia",
+      "avgHotelPerNight": 100,
+      "avgMealPerPerson": 18,
+      "avgAttractionPerPerson": 14,
+      "currency": "JPY"
+    },
+    {
+      "id": "osaka",
+      "name": "Osaka, Japan",
+      "continent": "Asia",
+      "avgHotelPerNight": 110,
+      "avgMealPerPerson": 18,
+      "avgAttractionPerPerson": 15,
+      "currency": "JPY"
+    },
+    {
+      "id": "seoul",
+      "name": "Seoul, South Korea",
+      "continent": "Asia",
+      "avgHotelPerNight": 120,
+      "avgMealPerPerson": 15,
+      "avgAttractionPerPerson": 12,
+      "currency": "KRW"
+    },
+    {
+      "id": "busan",
+      "name": "Busan, South Korea",
+      "continent": "Asia",
+      "avgHotelPerNight": 90,
+      "avgMealPerPerson": 12,
+      "avgAttractionPerPerson": 10,
+      "currency": "KRW"
+    },
+    {
+      "id": "beijing",
+      "name": "Beijing, China",
+      "continent": "Asia",
+      "avgHotelPerNight": 80,
+      "avgMealPerPerson": 10,
+      "avgAttractionPerPerson": 8,
+      "currency": "CNY"
+    },
+    {
+      "id": "shanghai",
+      "name": "Shanghai, China",
+      "continent": "Asia",
+      "avgHotelPerNight": 110,
+      "avgMealPerPerson": 14,
+      "avgAttractionPerPerson": 12,
+      "currency": "CNY"
+    },
+    {
+      "id": "hongkong",
+      "name": "Hong Kong",
+      "continent": "Asia",
+      "avgHotelPerNight": 180,
+      "avgMealPerPerson": 22,
+      "avgAttractionPerPerson": 20,
+      "currency": "HKD"
+    },
+    {
+      "id": "singapore",
+      "name": "Singapore",
+      "continent": "Asia",
+      "avgHotelPerNight": 160,
+      "avgMealPerPerson": 25,
+      "avgAttractionPerPerson": 20,
+      "currency": "SGD"
+    },
+    {
+      "id": "bangkok",
+      "name": "Bangkok, Thailand",
+      "continent": "Asia",
+      "avgHotelPerNight": 60,
+      "avgMealPerPerson": 6,
+      "avgAttractionPerPerson": 5,
+      "currency": "THB"
+    },
+    {
+      "id": "phuket",
+      "name": "Phuket, Thailand",
+      "continent": "Asia",
+      "avgHotelPerNight": 70,
+      "avgMealPerPerson": 8,
+      "avgAttractionPerPerson": 7,
+      "currency": "THB"
+    },
+    {
+      "id": "bali",
+      "name": "Bali, Indonesia",
+      "continent": "Asia",
+      "avgHotelPerNight": 50,
+      "avgMealPerPerson": 5,
+      "avgAttractionPerPerson": 6,
+      "currency": "IDR"
+    },
+    {
+      "id": "delhi",
+      "name": "New Delhi, India",
+      "continent": "Asia",
+      "avgHotelPerNight": 45,
+      "avgMealPerPerson": 4,
+      "avgAttractionPerPerson": 3,
+      "currency": "INR"
+    },
+    {
+      "id": "mumbai",
+      "name": "Mumbai, India",
+      "continent": "Asia",
+      "avgHotelPerNight": 60,
+      "avgMealPerPerson": 6,
+      "avgAttractionPerPerson": 5,
+      "currency": "INR"
+    },
+    {
+      "id": "dubai",
+      "name": "Dubai, UAE",
+      "continent": "Middle East",
+      "avgHotelPerNight": 150,
+      "avgMealPerPerson": 30,
+      "avgAttractionPerPerson": 25,
+      "currency": "AED"
+    },
+    {
+      "id": "doha",
+      "name": "Doha, Qatar",
+      "continent": "Middle East",
+      "avgHotelPerNight": 120,
+      "avgMealPerPerson": 25,
+      "avgAttractionPerPerson": 20,
+      "currency": "QAR"
+    },
+    {
+      "id": "cape",
+      "name": "Cape Town, South Africa",
+      "continent": "Africa",
+      "avgHotelPerNight": 80,
+      "avgMealPerPerson": 10,
+      "avgAttractionPerPerson": 8,
+      "currency": "ZAR"
+    },
+    {
+      "id": "johannesburg",
+      "name": "Johannesburg, South Africa",
+      "continent": "Africa",
+      "avgHotelPerNight": 70,
+      "avgMealPerPerson": 9,
+      "avgAttractionPerPerson": 7,
+      "currency": "ZAR"
+    },
+    {
+      "id": "nairobi",
+      "name": "Nairobi, Kenya",
+      "continent": "Africa",
+      "avgHotelPerNight": 65,
+      "avgMealPerPerson": 8,
+      "avgAttractionPerPerson": 6,
+      "currency": "KES"
+    },
+    {
+      "id": "lagos",
+      "name": "Lagos, Nigeria",
+      "continent": "Africa",
+      "avgHotelPerNight": 90,
+      "avgMealPerPerson": 10,
+      "avgAttractionPerPerson": 8,
+      "currency": "NGN"
+    },
+    {
+      "id": "accra",
+      "name": "Accra, Ghana",
+      "continent": "Africa",
+      "avgHotelPerNight": 50,
+      "avgMealPerPerson": 6,
+      "avgAttractionPerPerson": 5,
+      "currency": "GHS"
+    },
+    {
+      "id": "cairo",
+      "name": "Cairo, Egypt",
+      "continent": "Africa",
+      "avgHotelPerNight": 55,
+      "avgMealPerPerson": 7,
+      "avgAttractionPerPerson": 6,
+      "currency": "EGP"
+    },
+    {
+      "id": "sydney",
+      "name": "Sydney, Australia",
+      "continent": "Oceania",
+      "avgHotelPerNight": 140,
+      "avgMealPerPerson": 28,
+      "avgAttractionPerPerson": 20,
+      "currency": "AUD"
+    },
+    {
+      "id": "melbourne",
+      "name": "Melbourne, Australia",
+      "continent": "Oceania",
+      "avgHotelPerNight": 120,
+      "avgMealPerPerson": 25,
+      "avgAttractionPerPerson": 18,
+      "currency": "AUD"
+    },
+    {
+      "id": "auckland",
+      "name": "Auckland, New Zealand",
+      "continent": "Oceania",
+      "avgHotelPerNight": 110,
+      "avgMealPerPerson": 22,
+      "avgAttractionPerPerson": 16,
+      "currency": "NZD"
+    },
+    {
+      "id": "vancouver",
+      "name": "Vancouver, Canada",
+      "continent": "North America",
+      "avgHotelPerNight": 120,
+      "avgMealPerPerson": 22,
+      "avgAttractionPerPerson": 18,
+      "currency": "CAD"
+    },
+    {
+      "id": "toronto",
+      "name": "Toronto, Canada",
+      "continent": "North America",
+      "avgHotelPerNight": 130,
+      "avgMealPerPerson": 24,
+      "avgAttractionPerPerson": 20,
+      "currency": "CAD"
+    },
+    {
+      "id": "montreal",
+      "name": "Montreal, Canada",
+      "continent": "North America",
+      "avgHotelPerNight": 100,
+      "avgMealPerPerson": 18,
+      "avgAttractionPerPerson": 15,
+      "currency": "CAD"
+    },
+    {
+      "id": "quito",
+      "name": "Quito, Ecuador",
+      "continent": "South America",
+      "avgHotelPerNight": 60,
+      "avgMealPerPerson": 8,
+      "avgAttractionPerPerson": 6,
+      "currency": "USD"
+    },
+    {
+      "id": "lima",
+      "name": "Lima, Peru",
+      "continent": "South America",
+      "avgHotelPerNight": 70,
+      "avgMealPerPerson": 10,
+      "avgAttractionPerPerson": 8,
+      "currency": "PEN"
+    },
+    {
+      "id": "santiago",
+      "name": "Santiago, Chile",
+      "continent": "South America",
+      "avgHotelPerNight": 80,
+      "avgMealPerPerson": 12,
+      "avgAttractionPerPerson": 10,
+      "currency": "CLP"
+    },
+    {
+      "id": "buenos",
+      "name": "Buenos Aires, Argentina",
+      "continent": "South America",
+      "avgHotelPerNight": 75,
+      "avgMealPerPerson": 12,
+      "avgAttractionPerPerson": 10,
+      "currency": "ARS"
+    },
+    {
+      "id": "rio",
+      "name": "Rio de Janeiro, Brazil",
+      "continent": "South America",
+      "avgHotelPerNight": 90,
+      "avgMealPerPerson": 15,
+      "avgAttractionPerPerson": 12,
+      "currency": "BRL"
+    },
+    {
+      "id": "istanbul",
+      "name": "Istanbul, Turkey",
+      "continent": "Europe/Asia",
+      "avgHotelPerNight": 85,
+      "avgMealPerPerson": 12,
+      "avgAttractionPerPerson": 10,
+      "currency": "TRY"
+    },
+    {
+      "id": "moscow",
+      "name": "Moscow, Russia",
+      "continent": "Europe/Asia",
+      "avgHotelPerNight": 95,
+      "avgMealPerPerson": 15,
+      "avgAttractionPerPerson": 12,
+      "currency": "RUB"
+    },
+    {
+      "id": "saopaulo",
+      "name": "Sao Paulo, Brazil",
+      "continent": "South America",
+      "avgHotelPerNight": 85,
+      "avgMealPerPerson": 12,
+      "avgAttractionPerPerson": 10,
+      "currency": "BRL"
+    },
+    {
+      "id": "vienna",
+      "name": "Vienna, Austria",
+      "continent": "Europe",
+      "avgHotelPerNight": 120,
+      "avgMealPerPerson": 22,
+      "avgAttractionPerPerson": 18,
+      "currency": "EUR"
+    }
+  ],
+  "currencies": {
+    "USD": 1,
+    "GBP": 1.25,
+    "EUR": 1.08,
+    "JPY": 0.0071,
+    "KRW": 0.00075,
+    "CNY": 0.14,
+    "HKD": 0.13,
+    "SGD": 0.73,
+    "THB": 0.028,
+    "IDR": 6.4e-05,
+    "INR": 0.012,
+    "AED": 0.27,
+    "QAR": 0.27,
+    "ZAR": 0.052,
+    "KES": 0.0065,
+    "NGN": 0.0018,
+    "GHS": 0.085,
+    "EGP": 0.032,
+    "AUD": 0.63,
+    "NZD": 0.58,
+    "CAD": 0.74,
+    "PEN": 0.26,
+    "CLP": 0.0011,
+    "ARS": 0.0068,
+    "BRL": 0.19,
+    "TRY": 0.036,
+    "RUB": 0.011
+  }
+}
