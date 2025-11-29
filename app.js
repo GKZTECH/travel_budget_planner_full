@@ -1,5 +1,5 @@
-import { fetchData } from './modules/api.service.js'
-import { estimateTrip } from './modules/budget.engine.js'
+import { fetchData } from './public/modules/api.service.js'
+import { estimateTrip } from './public/modules/budget.engine.js'
 
 const DEST_SELECT = document.getElementById('destination')
 const CONTINENT_SELECT = document.getElementById('continent')
