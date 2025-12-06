@@ -1,4 +1,4 @@
- const DATA_URL = 'https://raw.githubusercontent.com/username/repo/main/data.json';
+ const DATA_URL = 'https://raw.githuhttps://github.com/GKZTECH/travel_budget_planner_full/blob/main/data/destinations.jsonbusercontent.com/username/repo/main/data.json';
 
     fetch(DATA_URL)
       .then(response => {
