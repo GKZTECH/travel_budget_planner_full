@@ -3,7 +3,7 @@ import fetch from 'node-fetch'; // npm install node-fetch
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const DATA_URL = 'https://raw.githubusercontent.com/usernahttps://github.com/GKZTECH/travel_budget_planner_full/blob/main/data/destinations.jsonme/repo/main/data.json';
+const DATA_URL = 
 
 app.get('/data', async (req, res) => {
   try {
