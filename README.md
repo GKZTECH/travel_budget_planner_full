@@ -15,4 +15,3 @@ Run locally:
 Notes:
 - Data in /data/destinations.json are sample estimates for demo and testing.
 - Currency rates are illustrative. Replace with a live FX API for production.
-My Name is Godfred Zonyrah. This is my Final Project.
