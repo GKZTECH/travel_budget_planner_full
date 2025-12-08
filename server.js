@@ -12,16 +12,19 @@ app.use(bodyParser.json())
 app.use(express.static(path.join(__dirname, 'public')))
 
 app.get('/api/data', async (req, res) => {
-  const url = 'https://raw.githubusercontent.com/GKZTECH/travel_budget_planner_full/refs/heads/main/data/destinations.json'
-  try {
-    const response = await fetch(url)
-    const json = await response.json()
-    res.json(json)
-  } catch (err) {
-    res.status(500).json({ error: 'Failed to load GitHub data' })
-  }
+const url = 'https://raw.githubusercontent.com/GKZTECH/travel_budget_planner_full/refs/heads/main/data/destinations.json'
+try {
+const response = await fetch(url)
+if (!response.ok) {
+return res.status(500).json({ error: 'GitHub request failed' })
+}
+const json = await response.json()
+res.json(json)
+} catch (err) {
+res.status(500).json({ error: 'Unable to load data' })
+}
 })
 
 app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`)
+console.log('Server running on http://localhost:' + PORT)
 })
