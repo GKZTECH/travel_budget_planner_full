@@ -1,5 +1,6 @@
-export async function fetchData(url){
-  const res = await fetch(url)
-  if(!res.ok) throw new Error('Network error')
-  return res.json()
+export async function fetchData() {
+const url = 'https://raw.githubusercontent.com/GKZTECH/travel_budget_planner_full/refs/heads/main/data/destinations.json'
+const response = await fetch(url)
+const json = await response.json()
+return json
 }

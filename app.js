@@ -18,9 +18,11 @@ const TOTAL_EL = document.getElementById('total')
 let appData = null
 let filtered = []
 
+const url = 'https://raw.githubusercontent.com/GKZTECH/travel_budget_planner_full/refs/heads/main/data/destinations.json'
+
 async function init(){
   try{
-    appData = await fetchData('/api/data')
+    appData = await fetchData()
     populateContinents()
     populateCurrencies()
     filtered = appData.destinations.slice()
