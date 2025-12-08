@@ -7,11 +7,9 @@ Features:
 - Improved UI and responsive layout.
 - Simple Node.js/Express backend serving JSON.
 
-Run locally:
-1. npm install
-2. npm start
-3. Open http://localhost:3000
+This is my final project. The Travel Budget Planner is a web application that helps travellers organize trips while staying within their financial limits. Users often struggle to estimate total travel expenses and compare lodging, food, and attraction costs in one place. This tool solves that problem by consolidating pricing information and generating realistic trip budgets. The motivation behind the project is to simplify travel planning and help users make confident, cost-aware decisions.
 
 Notes:
 - Data in /data/destinations.json are sample estimates for demo and testing.
 - Currency rates are illustrative. Replace with a live FX API for production.
+Godfred Zonyrah.
